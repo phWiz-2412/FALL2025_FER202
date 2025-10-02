@@ -1,0 +1,45 @@
+/* Đặt nền trắng cho toàn bộ trang */
+body {
+  background-color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Canh giữa nội dung container */
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* Định dạng cột với đường viền rõ ràng */
+.col {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Khoảng cách giữa các hàng */
+.row {
+  margin-bottom: 16px;
+}
+
+/* Banner */
+.banner {
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  margin-top: 20px;
+}
