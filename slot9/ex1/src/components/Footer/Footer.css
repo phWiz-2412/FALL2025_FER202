@@ -1,0 +1,19 @@
+/* src/components/Footer/Footer.css */
+.app-footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  color: #333;
+  font-size: 0.95rem;
+}
+.app-footer p { margin: 0.25rem 0; }
+
+.footer-link {
+  color: #007bff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.4rem;
+}
+.footer-link:hover { text-decoration: underline; color: #0056b3; }
