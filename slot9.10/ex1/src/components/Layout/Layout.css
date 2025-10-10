@@ -1,0 +1,18 @@
+/* ===== Layout.css ===== */
+
+/* Giữ header cố định trên cùng */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+/* Filter card */
+.card {
+  border-radius: 10px;
+}
+
+.card h5 {
+  font-weight: 600;
+  color: #333;
+}

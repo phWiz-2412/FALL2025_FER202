@@ -1,0 +1,32 @@
+export const carouselMovies = [
+  {
+    id: 1,
+    title: "Dune: Part Two",
+    description: "Paul Atreides unites with the Fremen to fight for Arrakis.",
+    poster: "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/10/People-of-Dune.jpg",
+    genre: "Sci-Fi",
+    year: 2024,
+    country: "USA",
+    duration: 155,
+  },
+  {
+    id: 2,
+    title: "Avatar: The Way of Water",
+    description: "Jake Sully lives with his family on Pandora as a threat returns.",
+    poster: "https://images.wallpapersden.com/image/download/avatar-the-way-of-water-movie-2-poster_bW1pa2uUmZqaraWkpJRmbmdlrWZlbWU.jpg",
+    genre: "Fantasy",
+    year: 2022,
+    country: "USA",
+    duration: 192,
+  },
+  {
+    id: 3,
+    title: "Oppenheimer",
+    description: "The story of J. Robert Oppenheimer and the atomic bomb.",
+    poster: "https://tse1.mm.bing.net/th/id/OIP.KuPhoJnd3ctVQ_lEblGADgHaEK?rs=1&pid=ImgDetMain",
+    genre: "Biography",
+    year: 2023,
+    country: "USA",
+    duration: 180,
+  },
+];

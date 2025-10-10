@@ -1,0 +1,47 @@
+/* ===== App.css (No Dark Mode, Clean Light UI) ===== */
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.card,
+.modal-content,
+.toast {
+  background-color: #ffffff;
+  color: #000;
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #333;
+  border-top: 1px solid #ddd;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.btn-outline-success {
+  color: #28a745;
+  border-color: #28a745;
+}
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+/* Toàn trang chữ nhỏ hơn */
+html {
+  font-size: 65%;
+}
+
+/* Mượt mà */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}

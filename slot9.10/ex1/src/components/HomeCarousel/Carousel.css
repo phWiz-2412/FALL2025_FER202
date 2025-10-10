@@ -1,0 +1,118 @@
+/* =============================
+   Carousel giữ sáng (bỏ qua dark mode)
+   ============================= */
+.no-dark,
+.no-dark * {
+  background-color: unset !important;
+  color: unset !important;
+  filter: none !important;
+}
+
+/* =============================
+   Ảnh Carousel - banner header (4:1)
+   ============================= */
+.carousel-img {
+  width: 100%;
+  aspect-ratio: 4 / 1; /* banner mảnh, sang trọng */
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+/* =============================
+   Caption (chữ trên ảnh) - căn giữa tuyệt đối
+   ============================= */
+.carousel-caption {
+  position: absolute;
+  bottom: 10%;
+  left: 50% !important;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 900px; /* tránh tràn ngang */
+  text-align: center;
+  margin: 0 auto;
+  color: #fff !important;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+/* =============================
+   Nút xem chi tiết
+   ============================= */
+.carousel-caption .btn {
+  font-weight: 500;
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  transition: all 0.25s ease;
+}
+
+.carousel-caption .btn:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.05);
+}
+
+/* =============================
+   Badge (genre) - luôn nổi bật
+   ============================= */
+.carousel-caption .badge {
+  background-color: rgba(0, 0, 0, 0.6) !important; /* nền đen mờ */
+  color: #fff !important; /* chữ trắng */
+  border: 1px solid rgba(255, 255, 255, 0.8); /* viền trắng nhạt */
+  font-weight: 500;
+  padding: 0.4em 0.6em;
+  border-radius: 0.6rem;
+  transition: all 0.25s ease;
+  margin-left: 0.5rem;
+}
+
+.carousel-caption .badge:hover {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  color: #000 !important;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+/* =============================
+   Responsive
+   ============================= */
+@media (max-width: 992px) {
+  .carousel-img {
+    aspect-ratio: 16 / 9; /* laptop/tablet */
+  }
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    aspect-ratio: 4 / 3;
+  }
+  .carousel-caption h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-img {
+    aspect-ratio: 1 / 1;
+  }
+  .carousel-caption h3 {
+    font-size: 1.1rem;
+  }
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}

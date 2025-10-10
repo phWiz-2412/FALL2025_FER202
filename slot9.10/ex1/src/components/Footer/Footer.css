@@ -1,0 +1,47 @@
+/* =============================
+   🎬 Footer gọn nhẹ, hiện đại
+   ============================= */
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  color: #333;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 1px 1px; /* Giảm chiều cao */
+  font-size: 0.85rem;
+  line-height: 1.3;
+  z-index: 100;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Liên kết GitHub */
+.footer-github {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer-github:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* 🌙 Dark mode */
+body.dark-mode .site-footer {
+  background-color: #1a1a1a;
+  color: #ddd;
+  border-top: 1px solid #444;
+}
+
+body.dark-mode .footer-github {
+  color: #66b3ff;
+}
+
+body.dark-mode .footer-github:hover {
+  color: #99ccff;
+  text-decoration: underline;
+}
